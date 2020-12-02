@@ -1,0 +1,8 @@
+# update the serial display every 5 minutes.
+
+# m h  dom mon dow   command
+*/5 * * * * root /usr/local/bin/twisplay.pl
+
+@reboot root /usr/local/bin/twisplay.pl --init
+
+
