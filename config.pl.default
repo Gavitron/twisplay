@@ -1,0 +1,19 @@
+$lockDir = "/var/run/twisplay/";
+
+my %default = (
+		'file'            => "01",				# This shouldn't really change
+		'hash'            => ("gavitron", "twitter", "vancouverhackspace") ,
+		'port'            => "/dev/ttyUSB1",   # to make this, do: $0 --init
+		'tweet_count'     => 15,
+
+		'consumer_key'    => '',    # obtained via twitter, see:
+		'consumer_secret' => '',    # https://developer.twitter.com/en/docs/authentication/oauth-1-0a/obtaining-user-access-tokens
+		'twitterId'       => '',    #
+		'token'           => '',    #
+		'token_secret'    => '',    #
+
+
+);
+
+
+1;
